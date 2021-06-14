@@ -29,6 +29,7 @@ font = pygame.font.SysFont(None, 55)
 # snakelenght=1
 # size=15
 # score=0
+# images['background']=pygame.image.load('images/download.jpg')
 def text_screen(text,color,x,y):
     screentext=font.render(text, True, color)
     window.blit(screentext,[x,y])
